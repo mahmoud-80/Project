@@ -22,7 +22,7 @@ class _SignUp_ScreenState extends State<SignUp_Screen> {
 
   @override
   void initState() {
-    // TODO: implement initState
+
     super.initState();
     _focusNode1.addListener(() {
       setState(() {});
@@ -168,4 +168,5 @@ class _SignUp_ScreenState extends State<SignUp_Screen> {
       ),
     );
   }
+
 }
